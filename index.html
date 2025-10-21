@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>View Student Data</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Top bar -->
+  <header class="top-bar">
+    <img src="Flagler_college_seal.png" alt="School Logo" class="logo">
+    <h1 class="title">Student Data Portal (Demo)</h1>
+  </header>
+
+  <!-- Main content -->
+  <main>
+    <div class="content">
+      <button onclick="getAllStudents()">View All Students</button>
+      <input type="number" id="studentId" placeholder="Enter ID">
+      <button onclick="getStudentById(document.getElementById('studentId').value)">View Student</button>
+      <button onclick="addStudent()">Add Student</button>
+      <button onclick="deleteStudent()">Delete Student</button>
+      <pre id="output"></pre>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>Created by Riley Burns</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
