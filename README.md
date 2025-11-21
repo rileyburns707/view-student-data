@@ -9,7 +9,8 @@ Please note: since I am using the free version of Render the first call you make
 
 
 ## Deployed Frontend
-The final website can be view here: [View Student Data on Render](https://student-data-frontend.onrender.com)
+The final website can be view here: [View Student Data on Render](https://view-student-data.onrender.com)
+
 
 ## Features
 - View all students  
